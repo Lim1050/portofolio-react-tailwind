@@ -1,2 +1,2 @@
-Responsive Portfolio Website Using React JS and Tailwind CSS | Portfolio Website in React.Js (40:28)
-git init | git add . | git commit -m "Hero Section - 40:28" | git branch -M main | git remote add origin https://github.com/Lim1050/portofolio-react-tailwind.git | git push -u origin main
+Responsive Portfolio Website Using React JS and Tailwind CSS | Portfolio Website in React.Js (53:50)
+git init | git add . | git commit -m "Work Experience Section - 53:50" | git branch -M main | git remote add origin https://github.com/Lim1050/portofolio-react-tailwind.git | git push -u origin main

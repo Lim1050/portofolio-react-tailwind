@@ -1,11 +1,26 @@
 import {
   IoLogoJavascript,
   IoLogoHtml5,
-  IoLogoReact,
   IoLogoNodejs,
+  IoLogoCss3,
+  IoLogoReact,
+  IoLogoPython,
 } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
+import {
+  SiPhp,
+  SiBootstrap,
+  SiTailwindcss,
+  SiLaravel,
+  SiMysql,
+  SiPostgresql,
+  SiElasticsearch,
+  SiGit,
+  SiLinux,
+  SiApachenetbeanside,
+} from "react-icons/si";
+import { FaServer } from "react-icons/fa";
 
 export const PROFILE_DATA = {
   profilePicture: "https://via.placeholder.com/150", // Ganti dengan URL foto asli jika ada
@@ -42,56 +57,131 @@ export const PROFILE_DATA = {
 export const SKILLS = [
   {
     id: "01",
-    icon: IoLogoJavascript,
-    title: "JavaScript",
-    comment:
-      "Experienced in building dynamic frontend interactions and backend logic using modern JavaScript.",
-  },
-  {
-    id: "02",
     icon: IoLogoHtml5,
     title: "HTML",
     comment:
-      "Strong foundation in semantic HTML for creating accessible and structured web content.",
+      "Strong foundation in semantic HTML for creating structured web content.",
+  },
+  {
+    id: "02",
+    icon: IoLogoCss3,
+    title: "CSS",
+    comment:
+      "Experienced in styling and layout design using modern CSS techniques.",
   },
   {
     id: "03",
-    icon: IoLogoReact,
-    title: "React JS",
+    icon: IoLogoJavascript,
+    title: "JavaScript",
     comment:
-      "Specialized in building responsive SPA interfaces and component-based architecture using React.",
+      "Skilled in dynamic frontend and backend logic using modern JavaScript.",
   },
   {
     id: "04",
-    icon: IoLogoNodejs,
-    title: "Node JS",
+    icon: IoLogoPython,
+    title: "Python",
     comment:
-      "Used for building efficient server-side applications and RESTful APIs with Express.",
+      "Used for scripting, automation, and backend development in web applications.",
   },
   {
     id: "05",
-    icon: SiMongodb,
-    title: "MongoDB",
+    icon: SiPhp,
+    title: "PHP",
     comment:
-      "Capable of managing NoSQL data in scalable applications with Mongoose and aggregation pipelines.",
+      "Experienced in building server-side applications using native PHP and frameworks.",
   },
   {
     id: "06",
-    icon: RiTailwindCssFill,
+    icon: SiBootstrap,
+    title: "Bootstrap",
+    comment:
+      "Utilized for rapid UI development with responsive and mobile-first components.",
+  },
+  {
+    id: "07",
+    icon: SiTailwindcss,
     title: "Tailwind CSS",
     comment:
-      "Utilized for building utility-first, custom-designed frontend UIs in React-based projects.",
+      "Utility-first CSS framework used for custom UI design in React projects.",
+  },
+  {
+    id: "08",
+    icon: IoLogoReact,
+    title: "React.js",
+    comment:
+      "Specialized in SPA development with component-based architecture.",
+  },
+  {
+    id: "09",
+    icon: IoLogoNodejs,
+    title: "Node.js",
+    comment:
+      "Efficient backend development with Express for RESTful API services.",
+  },
+  {
+    id: "10",
+    icon: SiLaravel,
+    title: "Laravel",
+    comment:
+      "Built scalable backend systems using Laravel’s elegant PHP framework.",
+  },
+  {
+    id: "11",
+    icon: SiMysql,
+    title: "MySQL",
+    comment:
+      "Used for managing relational data with complex query optimization.",
+  },
+  {
+    id: "12",
+    icon: SiPostgresql,
+    title: "PostgreSQL",
+    comment:
+      "Experience with advanced SQL features and database performance tuning.",
+  },
+  {
+    id: "13",
+    icon: SiMongodb,
+    title: "MongoDB",
+    comment: "Proficient in NoSQL data modeling and aggregation pipelines.",
+  },
+  {
+    id: "14",
+    icon: SiElasticsearch,
+    title: "Elasticsearch",
+    comment: "Used for implementing full-text search and real-time analytics.",
+  },
+  {
+    id: "15",
+    icon: SiGit,
+    title: "Git",
+    comment:
+      "Version control with Git for efficient team collaboration and CI/CD.",
+  },
+  {
+    id: "16",
+    icon: SiLinux,
+    title: "Linux Server",
+    comment:
+      "Comfortable managing Linux environments for deployment and server maintenance.",
+  },
+  {
+    id: "17",
+    icon: FaServer,
+    title: "RESTful API",
+    comment:
+      "Designed and implemented RESTful APIs for frontend-backend communication.",
   },
 ];
 
 export const WORK_EXPERIENCE = [
   {
     id: "01",
-    company: "PT Teknologi Karya Mandiri",
+    company: "PT Technology Karya Mandiri",
     position: "Server Engineer",
     duration: "2022 – Present",
     description:
-      "Responsible for maintaining server infrastructure, performing real-time monitoring using ELK Stack, and ensuring high availability of services in Linux-based environments.",
+      "Responsible for maintaining server infrastructure, performing real-time monitoring using Grafana, and ensuring high availability of services in Linux-based environments.",
   },
   {
     id: "02",
