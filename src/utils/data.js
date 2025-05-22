@@ -208,7 +208,7 @@ export const ABOUT_ME_DATA = {
     "In the future, I aim to contribute to cutting-edge web technologies, grow in the field of cybersecurity, and work on impactful digital solutions within global tech teams.",
   stats: {
     yearsOfExperience: "4+",
-    numberOfProjects: 25,
-    certificationsEarned: 5,
+    numberOfProjects: "10+",
+    certificationsEarned: "40+",
   },
 };

@@ -5,6 +5,7 @@ import Skills from "./components/Skills";
 import WorkExperience from "./components/WorkExperience";
 import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 import BG_GRADIENT from "./assets/wave.png";
 
@@ -25,6 +26,7 @@ const App = () => {
       <WorkExperience />
       <AboutMe />
       <Contact />
+      <Footer />
     </div>
   );
 };
